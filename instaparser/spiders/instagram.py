@@ -12,8 +12,8 @@ class InstagramSpider(scrapy.Spider):
     allowed_domains = ['instagram.com']
     start_urls = ['https://instagram.com/']
     inst_login_link = 'https://www.instagram.com/accounts/login/ajax/'
-    insta_login = 'pirusbloods'
-    insta_pwd = '#PWD_INSTAGRAM_BROWSER:10:1625434698:AfpQAJlAEltSZ+RkK2cKq9XX+0ifC+AiV8pIMEVvPkR1YtdbZthmEI/3/K/zohLe6wcUYBCp0ILTxSw6pA69dfxZ/LzDEthi8bFn2dHCrrTisCeBe+3xD2YREE0c6IAXLtWv37fualyESOQdGN5n3r06z4T+gA=='
+    insta_login = '***'
+    insta_pwd = '***'
     parse_user = ['sonialime', 'tanyapomelnikova']  # Пользователи, у которых собираем посты.
 
     graphql_url = 'https://www.instagram.com/graphql/query/?'
